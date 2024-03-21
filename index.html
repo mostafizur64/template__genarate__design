@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bemgroup</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="invoice__wrapper" id="print__area">
+      <div class="invoice">
+        <div class="invoice__container">
+          <!-- invoice header  -->
+          <div class="invoice__head">
+            <div class="invoice__head__top">
+              <div class="invoice__head__top__left text__start">
+                <h2>Invoice</h2>
+                <p><span class="text__bold">Invoice no:</span> #A1I7701</p>
+                <p><span class="text__bold">Date:</span> January 3, 2023</p>
+                <p><span class="text__bold">Due Date:</span> March 11, 2024</p>
+              </div>
+              <div class="invoice__head__top__right text__end">
+                <img src="./image/logo.png" alt="logo" />
+              </div>
+            </div>
+          </div>
+          <!-- invoice billing part  -->
+          <table class="invoice__billing__table">
+            <tr>
+              <td class="invoice__billing__left__table">
+                <ul>
+                  <li class="text__bold">Bill To</li>
+                  <li>David Bailey</li>
+                  <li>
+                    4517 Washington Ave,<br />
+                    Manchester Kentucky 39495
+                  </li>
+                  <li>david@gmail.com</li>
+                  <li>+62 21 123456</li>
+                </ul>
+              </td>
+              <td class="invoice__billing__right__table text__end">
+                <ul>
+                  <li class="text__bold">Bill From</li>
+                  <li>ABC Solutions Ltd.</li>
+                  <li>
+                    4517 Washington Ave. Manchester <br />
+                    Kentucky 39495
+                  </li>
+                  <li>abc@gmail.com</li>
+                  <li>+62 853 1234 5678</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+
+          <!--invoice Item table  -->
+          <div class="overflow__view">
+            <div class="invoice__item__table">
+              <table>
+                <thead>
+                  <tr>
+                    <td>Item Description</td>
+                    <td>Quantity</td>
+                    <td>Unit price</td>
+                    <td class="table__last__item">Total</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Galaxy Tab S6 Lite - 2022 Edition</td>
+                    <td>2</td>
+                    <td>$200.00</td>
+                    <td>$200.00</td>
+                  </tr>
+                  <tr>
+                    <td>Galaxy Tab S6 Lite - 2022 Edition</td>
+                    <td>1</td>
+                    <td>$200.00</td>
+                    <td>$200.00</td>
+                  </tr>
+                  <tr>
+                    <td>Galaxy Tab S6 Lite - 2022 Edition</td>
+                    <td>2</td>
+                    <td>$200.00</td>
+                    <td>$200.00</td>
+                  </tr>
+                  <tr>
+                    <td>Galaxy Tab S6 Lite - 2022 Edition</td>
+                    <td>1</td>
+                    <td>$200.00</td>
+                    <td>$200.00</td>
+                  </tr>
+                  <tr>
+                    <td>Galaxy Tab S6 Lite - 2022 Edition</td>
+                    <td>1</td>
+                    <td>$200.00</td>
+                    <td>$200.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!--Additional Information part -->
+          <table class="additional__info">
+            <tr>
+              <td class="additional__left__info additional__text">Additional Information</td>
+              <td class="additional__right__info text__end additional__text">Totals</td>
+            </tr>
+          </table>
+
+          <!-- Term & Conditions  -->
+          <div>
+            <div class="term__condition">
+              <div class="">
+                <table class="term__conditon__table">
+                  <tr>
+                    <td class="additional__left__info term__condition__title">
+                      <h3>Terms & Conditions:</h3>
+                      <span class=""
+                        >The payment must be made within 30 days.</span
+                      >
+                    </td>
+                    <td class="conditional__sub__right__info">
+                      <table class="term__condition term__condition-second">
+                        <tr>
+                          <td class=".conditional__sub__second__left__info">
+                            <div class="term__text">Subtotal:</div>
+                            <div class="term__text text__bold">Tax(5%):</div>
+                            <div class="term__text">Total:</div>
+                            <div class="term__text">Partial period:</div>
+                            <div class="term__text">Each Months</div>
+                          </td>
+                          <td
+                            class="text__end conditional__sub__second__right__info"
+                          >
+                            <ul>
+                              <div class="term__text">$1600.00</div>
+                              <div class="term__text">$80.00</div>
+                              <div class="term__text">$1680.00</div>
+                              <div class="term__text">3 Months</div>
+                              <div class="term__text">$560.00</div>
+                            </ul>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="invoice__head pay__top__now">
+              <div class="invoice__head__top">
+                <div class="invoice__head__top__left text__start">
+                  <img src="./image/signature.png" alt="logo" />
+                  <h3>Khalid Istiaq</h3>
+                  <h4>UX Designer, BemGroup</h4>
+                </div>
+                <div class="invoice__head__top__right text__end pay__now">
+                  <h2>Pay Now $1,680.00</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer section  -->
+      <div class="footer">
+        <div class="footer__content">
+            <div class="centered-content">
+                <hr class="hr">
+              <span>Created by</span> 
+              <img src="./image/footerLogo.png" alt="logo" class="aligned-top">
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  </body>
+</html>
